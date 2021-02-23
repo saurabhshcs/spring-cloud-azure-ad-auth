@@ -1,0 +1,24 @@
+spring:
+  profile: local
+---
+  spring:
+    security:
+      oauth2:
+        client:
+          registration:
+            azure:
+    client-id:
+    client-secret:
+---
+  azure:
+    activedirectory:
+      tenant-id:
+      user-group:
+        allowed-groups: group1, group2
+        environment: global-v2-graph
+        user-group:
+          key: @odata.type
+          user-group:
+            value: #microsoft.graph.group
+            user-group:
+              object-id-key:

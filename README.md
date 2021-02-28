@@ -1,7 +1,11 @@
 # spring-cloud-azure-ad-auth
 
+> This is a simaple application example of the azure Oauth2 resource authiorisation and authentication.
+
+
 
 Run all the test
+
 `
 ./gradlew test
 `
